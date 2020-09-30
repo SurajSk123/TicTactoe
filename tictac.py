@@ -38,7 +38,7 @@ def can_move(brd, player, move):
     return False
 
 
-def can_win(brd, player, move):
+def can_win(brd, player_1, move):
     places = [ ]
     x = 0
     for i in brd:
